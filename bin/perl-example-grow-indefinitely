@@ -3,32 +3,14 @@
 our $DATE = '2015-12-31'; # DATE
 our $VERSION = '0.02'; # VERSION
 
-sub func1 {
-    func2(1, [2, 3], {4=>5});
-}
+# this script will grow an array (and thus process size) indefinitely. be
+# careful when running this script, it will either be stopped by the OS and/or
+# make your system thrash/crawl in the process.
 
-sub func2 {
-    func3();
-}
+push @a, 1 while 1;
 
-sub func3 {
-    func4();
-    func4(1, ["some", "arguments", {}]);
-    func4(undef, qr/Regexp/, []);
-}
-
-sub func4 {
-    if (rand() < 0.5) {
-        warn "This is a warning";
-    } else {
-        warn "This is another warning";
-    }
-}
-
-func1();
-
-# ABSTRACT: This script prints some warnings
-# PODNAME: perl-example-print-warnings
+# ABSTRACT: Grow an array indefinitely
+# PODNAME: perl-example-grow-indefinitely
 
 __END__
 
@@ -38,13 +20,11 @@ __END__
 
 =head1 NAME
 
-perl-example-print-warnings - This script prints some warnings
+perl-example-grow-indefinitely - Grow an array indefinitely
 
 =head1 VERSION
 
-This document describes version 0.02 of perl-example-print-warnings (from Perl distribution Perl-Examples), released on 2015-12-31.
-
-=head1 DESCRIPTION
+This document describes version 0.02 of perl-example-grow-indefinitely (from Perl distribution Perl-Examples), released on 2015-12-31.
 
 =head1 HOMEPAGE
 

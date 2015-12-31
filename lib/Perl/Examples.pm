@@ -1,7 +1,7 @@
 package Perl::Examples;
 
-our $DATE = '2015-01-06'; # DATE
-our $VERSION = '0.01'; # VERSION
+our $DATE = '2015-12-31'; # DATE
+our $VERSION = '0.02'; # VERSION
 
 1;
 # ABSTRACT: A collection of various examples of Perl modules/scripts
@@ -18,7 +18,7 @@ Perl::Examples - A collection of various examples of Perl modules/scripts
 
 =head1 VERSION
 
-This document describes version 0.01 of Perl::Examples (from Perl distribution Perl-Examples), released on 2015-01-06.
+This document describes version 0.02 of Perl::Examples (from Perl distribution Perl-Examples), released on 2015-12-31.
 
 =head1 DESCRIPTION
 

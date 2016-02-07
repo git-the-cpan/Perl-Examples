@@ -12,6 +12,7 @@ bin/perl-example-grow-indefinitely
 bin/perl-example-print-warnings
 dist.ini
 lib/Perl/Examples.pm
+lib/Perl/Examples/POD/Link.pm
 t/00-compile.t
 t/release-pod-coverage.t
 t/release-pod-syntax.t

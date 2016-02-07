@@ -1,7 +1,7 @@
 #!perl
 
-our $DATE = '2015-12-31'; # DATE
-our $VERSION = '0.03'; # VERSION
+our $DATE = '2016-02-07'; # DATE
+our $VERSION = '0.04'; # VERSION
 
 # this script will grow an array (and thus process size) indefinitely. be
 # careful when running this script, it will either be stopped by the OS and/or
@@ -24,7 +24,7 @@ perl-example-grow-indefinitely - Grow an array indefinitely
 
 =head1 VERSION
 
-This document describes version 0.03 of perl-example-grow-indefinitely (from Perl distribution Perl-Examples), released on 2015-12-31.
+This document describes version 0.04 of perl-example-grow-indefinitely (from Perl distribution Perl-Examples), released on 2016-02-07.
 
 =head1 HOMEPAGE
 
@@ -48,7 +48,7 @@ perlancar <perlancar@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2015 by perlancar@cpan.org.
+This software is copyright (c) 2016 by perlancar@cpan.org.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.

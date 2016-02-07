@@ -17,11 +17,16 @@ meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: '1.4'
 name: Perl-Examples
+requires:
+  Carp: '0'
+  Getopt::Long: '0'
+  strict: '0'
+  warnings: '0'
 resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Perl-Examples
   homepage: https://metacpan.org/release/Perl-Examples
   repository: git://github.com/perlancar/perl-Perl-Examples.git
-version: '0.03'
+version: '0.04'
 x_Dist_Zilla:
   perl:
     version: '5.022000'
@@ -245,7 +250,7 @@ x_Dist_Zilla:
             -
               class: Pod::Weaver::Plugin::Rinci
               name: '@Author::PERLANCAR/Rinci'
-              version: '0.52'
+              version: '0.54'
             -
               class: Pod::Weaver::Plugin::AppendPrepend
               name: '@Author::PERLANCAR/AppendPrepend'
@@ -258,6 +263,10 @@ x_Dist_Zilla:
               class: Pod::Weaver::Plugin::SingleEncoding
               name: '@Author::PERLANCAR/SingleEncoding'
               version: '4.012'
+            -
+              class: Pod::Weaver::Plugin::PERLANCAR::SortSections
+              name: '@Author::PERLANCAR/PERLANCAR::SortSections'
+              version: '0.02'
       name: '@Author::PERLANCAR/PodWeaver'
       version: '4.006'
     -
@@ -312,6 +321,10 @@ x_Dist_Zilla:
     -
       class: Dist::Zilla::Plugin::Acme::CPANLists::Blacklist
       name: '@Author::PERLANCAR/Acme::CPANLists::Blacklist'
+      version: '0.01'
+    -
+      class: Dist::Zilla::Plugin::Prereqs::EnsureVersion
+      name: '@Author::PERLANCAR/Prereqs::EnsureVersion'
       version: '0.01'
     -
       class: Dist::Zilla::Plugin::Prereqs

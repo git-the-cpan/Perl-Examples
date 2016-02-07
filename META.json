@@ -27,6 +27,14 @@
             "Test::Pod::Coverage" : "1.08"
          }
       },
+      "runtime" : {
+         "requires" : {
+            "Carp" : "0",
+            "Getopt::Long" : "0",
+            "strict" : "0",
+            "warnings" : "0"
+         }
+      },
       "test" : {
          "requires" : {
             "File::Spec" : "0",
@@ -48,7 +56,7 @@
          "web" : "https://github.com/perlancar/perl-Perl-Examples"
       }
    },
-   "version" : "0.03",
+   "version" : "0.04",
    "x_Dist_Zilla" : {
       "perl" : {
          "version" : "5.022000"
@@ -327,7 +335,7 @@
                      {
                         "class" : "Pod::Weaver::Plugin::Rinci",
                         "name" : "@Author::PERLANCAR/Rinci",
-                        "version" : "0.52"
+                        "version" : "0.54"
                      },
                      {
                         "class" : "Pod::Weaver::Plugin::AppendPrepend",
@@ -343,6 +351,11 @@
                         "class" : "Pod::Weaver::Plugin::SingleEncoding",
                         "name" : "@Author::PERLANCAR/SingleEncoding",
                         "version" : "4.012"
+                     },
+                     {
+                        "class" : "Pod::Weaver::Plugin::PERLANCAR::SortSections",
+                        "name" : "@Author::PERLANCAR/PERLANCAR::SortSections",
+                        "version" : "0.02"
                      }
                   ]
                }
@@ -415,6 +428,11 @@
          {
             "class" : "Dist::Zilla::Plugin::Acme::CPANLists::Blacklist",
             "name" : "@Author::PERLANCAR/Acme::CPANLists::Blacklist",
+            "version" : "0.01"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::Prereqs::EnsureVersion",
+            "name" : "@Author::PERLANCAR/Prereqs::EnsureVersion",
             "version" : "0.01"
          },
          {

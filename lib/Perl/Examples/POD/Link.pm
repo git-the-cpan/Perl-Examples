@@ -15,7 +15,7 @@ Perl::Examples::POD::Link - Show the various examples of links
 
 =head1 VERSION
 
-This document describes version 0.04 of Perl::Examples::POD::Link (from Perl distribution Perl-Examples), released on 2016-02-07.
+This document describes version 0.05 of Perl::Examples::POD::Link (from Perl distribution Perl-Examples), released on 2016-02-08.
 
 =head1 DESCRIPTION
 
@@ -50,6 +50,24 @@ ftp scheme: L<ftp://ftp.example.com/>
 mailto scheme: L<mailto:example@example.com>
 
 Some custom scheme: L<foo://bar>
+
+=head2 POD link in head2: L<Perl::Examples>
+
+=head2 URL link in head2: L<http://www.example.com/head2.html>
+
+=head2 Links in bullet points
+
+=over
+
+=item * L<Perl::Examples>
+
+=item * L<http://www.example.com/bullet.html>
+
+=back
+
+=head2 Not links
+
+ L<link in verbatim is not link|Perl::Example>
 
 =head1 HOMEPAGE
 

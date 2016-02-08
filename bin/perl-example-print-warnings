@@ -1,7 +1,7 @@
 #!perl
 
-our $DATE = '2016-02-07'; # DATE
-our $VERSION = '0.04'; # VERSION
+our $DATE = '2016-02-08'; # DATE
+our $VERSION = '0.05'; # VERSION
 
 sub func1 {
     func2(1, [2, 3], {4=>5});
@@ -42,7 +42,7 @@ perl-example-print-warnings - This script prints some warnings
 
 =head1 VERSION
 
-This document describes version 0.04 of perl-example-print-warnings (from Perl distribution Perl-Examples), released on 2016-02-07.
+This document describes version 0.05 of perl-example-print-warnings (from Perl distribution Perl-Examples), released on 2016-02-08.
 
 =head1 DESCRIPTION
 

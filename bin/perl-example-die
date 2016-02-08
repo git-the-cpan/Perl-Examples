@@ -1,7 +1,7 @@
 #!perl
 
-our $DATE = '2016-02-07'; # DATE
-our $VERSION = '0.04'; # VERSION
+our $DATE = '2016-02-08'; # DATE
+our $VERSION = '0.05'; # VERSION
 
 use 5.010;
 use strict;
@@ -86,7 +86,7 @@ perl-example-die - Die/warn/croak/carp, with several options
 
 =head1 VERSION
 
-This document describes version 0.04 of perl-example-die (from Perl distribution Perl-Examples), released on 2016-02-07.
+This document describes version 0.05 of perl-example-die (from Perl distribution Perl-Examples), released on 2016-02-08.
 
 =head1 SYNOPSIS
 

@@ -56,7 +56,7 @@
          "web" : "https://github.com/perlancar/perl-Perl-Examples"
       }
    },
-   "version" : "0.04",
+   "version" : "0.05",
    "x_Dist_Zilla" : {
       "perl" : {
          "version" : "5.022000"

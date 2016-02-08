@@ -26,7 +26,7 @@ resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Perl-Examples
   homepage: https://metacpan.org/release/Perl-Examples
   repository: git://github.com/perlancar/perl-Perl-Examples.git
-version: '0.04'
+version: '0.05'
 x_Dist_Zilla:
   perl:
     version: '5.022000'
